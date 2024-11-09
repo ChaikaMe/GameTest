@@ -1,0 +1,42 @@
+.field {
+  width: 100%;
+  height: 100vh;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.land {
+  background-color: bisque;
+  position: relative;
+}
+
+.pl {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  background-color: orange;
+}
+
+.fakePl {
+  background-color: orangered;
+  width: 20px;
+  height: 20px;
+  border-radius: 40%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.wand {
+  width: 4px;
+  height: 20px;
+  position: absolute;
+  top: -10px;
+  left: 8px;
+  border-radius: 5px;
+  background-color: brown;
+}
